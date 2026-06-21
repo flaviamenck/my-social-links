@@ -20,3 +20,12 @@ function toggleMode() {
     )
   }
 }
+
+/*alerta de clique no link "Sobre mim"*/
+
+document
+  .getElementById("sobre-mim")
+  .addEventListener("click", function (event) {
+    event.preventDefault()
+    alert("Minha biografia ainda está em construção, mas em breve estará disponível!")
+  })
